@@ -1,32 +1,32 @@
-.navbar-brand {
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.mas {
-    width: 15px;
-    height: 15px;
-    padding-bottom: 3.5px;
-    padding-left: 0.2px;
-}
-
-.COMPRA {
-    text-decoration: underline;
-}
-
-.navbar {
-    background-color: grey;
-}
-
 body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    overflow-x: hidden;
-}
-
-.cart-dropdown {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .mas {
+    width: 15px;
+    height: 15px;
+    padding-bottom: 3.5px;
+    padding-left: 0.2px;
+  }
+  
+  .COMPRA {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .navbar {
+    background-color: grey;
+  }
+  
+  .cart-dropdown {
     min-width: 280px;
     max-width: 100vw;
     padding: 15px;
@@ -34,45 +34,61 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.video-estilo {
+  }
+  
+  .video-estilo {
     width: 100%;
-    height: 78vh;
+    height: auto;
+    max-height: 78vh;
     object-fit: cover;
     display: block;
     cursor: pointer;
-}
-
-.imgane1,
-.video {
+  }
+  
+  .imgane1,
+  .video {
     width: 100%;
-    height: 150vh;
+    height: auto;
     object-fit: cover;
     cursor: pointer;
-
-}
-.imagen-estilo{
+    max-height: 100vh;
+  }
+  
+  .imagen-estilo,
+  .imagenmenu {
     width: 100%;
-    height: 45vh;
+    height: auto;
+    max-height: 45vh;
+    object-fit: cover;
     cursor: pointer;
-
-
-}
-.imagenmenu{
-    width: 100%;
-    height: 45vh;
-    cursor: pointer;
-
-}
-.subrayado{
+  }
+  
+  .subrayado {
     text-decoration: none;
     position: relative;
     cursor: pointer;
-
-}
-.subrayado:hover{
+  }
+  
+  .subrayado:hover {
     text-decoration: underline;
-    cursor: pointer;
-
-}
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 12px;
+    }
+  
+    .cart-dropdown {
+      padding: 10px;
+    }
+  
+    .COMPRA {
+      display: inline-block;
+      font-size: 14px;
+    }
+  
+    .cart-item-details h6,
+    .cart-item-details p {
+      font-size: 14px;
+    }
+  }
