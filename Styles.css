@@ -38,14 +38,13 @@ body {
   
   .video-estilo {
     width: 100%;
-    height: auto;
-    max-height: 78vh;
+    height: 1200px;
     object-fit: cover;
-    display: block;
+    object-position: top;
     cursor: pointer;
   }
   
-  .imgane1,
+ /*  .imgane1,
   .video {
     width: 100%;
     height: auto;
@@ -91,4 +90,4 @@ body {
     .cart-item-details p {
       font-size: 14px;
     }
-  }
+  } */
