@@ -15,13 +15,15 @@
 
 <body>
   <!-- Navar inicial -->
+   
   <nav class="navbar navbar-top bg-body-tertiary">
     <div class="container-fluid">
       <div class="row w-100">
         <div class="col-12 col-md d-flex justify-content-between align-items-center flex-wrap text-center text-md-start">
           <a class="navbar-brand w-100 w-md-auto mb-2 mb-md-0" href="#">
             COMPRA UNA TARJETA DE REGALO DE $1000 Y OBTE 20%
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="COMPRA">COMPRA AHORA</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="COMPRA">COMPRA AHORA</span>
             <img class="mas" src="/Imagenes/mas.png" alt="">
           </a>
         </div>
@@ -38,6 +40,10 @@
     <a class="navbar-brand" href="#">
       <img src="Imagenes/logo" alt="H&M" height="30" />
     </a>
+    <button class="btn me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#megaMenuHYM" aria-controls="megaMenuHYM">
+      <i class="bi bi-list fs-2"></i>
+    </button>
+ 
 
     <ul class="navbar-nav d-flex flex-row gap-3 align-items-center m-0">
       <li class="nav-item dropdown">
@@ -112,19 +118,340 @@
     </div>
   </div>
 </nav>
- <!-- Video de inicio -->
-  <section class="video-principal" style="position: relative;">
-    <video class="video-estilo " autoplay loop  playsinline>
-      <source src="Imagenes/video.mp4" type="video/mp4">
-       Tu navegador no soporta el video.
-       </video>
-       <p>DISPONIBLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="COMPRA">VER MAS</span> <br>
+<!-- MEGA MENÚ LATERAL CON IMAGEN -->
+<div class="offcanvas offcanvas-start w-50" tabindex="-1" id="megaMenuHYM" aria-labelledby="megaMenuHYMLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title fw-bold" id="megaMenuHYMLabel"></h5>
+    <ul class="navbar-nav d-flex flex-row gap-3 align-items-center m-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">MUJER</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Novedades</a></li>
+          <li><a class="dropdown-item" href="#">Ropa</a></li>
+          <li><a class="dropdown-item" href="#">Zapatos y accesorios</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">HOMBRE</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Novedades</a></li>
+          <li><a class="dropdown-item" href="#">Ropa</a></li>
+          <li><a class="dropdown-item" href="#">Zapatos y accesorios</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">NIÑOS</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Novedades</a></li>
+          <li><a class="dropdown-item" href="#">Ropa</a></li>
+          <li><a class="dropdown-item" href="#">Zapatos y accesorios</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">HOME</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Novedades</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">BEAUTY</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Novedades</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+  </div>
+  <div class="offcanvas-body d-flex align-items-center justify-content-center">
+        <div class="row">
+      <!-- Categorías -->
+      <div class="col-md-6 col-lg-4">
+        <ul class="list-unstyled fs-6"> <br> <br><br> <br><br><br><br><br><br> <br><br> <br><br><br><br><br><br> <br><br> <br><br><br><br>
+          <li class="fw-bold mb-2">
+            <li class="fw-bold mb-2">
+              <a class="nav-link" data-bs-toggle="collapse" href="#seccionNovedades" role="button" aria-expanded="false" aria-controls="seccionNovedades">
+                NOVEDADES
+              </a>
+            </li>
+                  
+          <br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">EDITS</a></li><br>
+          <li class="fw-bold mt-3 mb-2">ROPA</li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">TRAJES DE BANO Y ROPA D EPLAYA</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">ACCESORIOS</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">ZAPATOS</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">BEAUTY</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">SPORT</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">REBAJAS</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">REGALOS</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">SUSTENTABILIDAD</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">GARMENT CARE</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">ATENCION AL CLIENTE</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">NEWSLETTER</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">ENCONTRAR UNA TIENDA</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">DESCARGAR PARA ANDROID</a></li><br>
+          <li><a href="#" class="text-dark text-decoration-none d-block py-1">DESCARGAR PARA IOS</a></li><br>
+
+        </ul>
+      </div>
+      <!-- Imagen -->
+      <div class="col-md-6 col-lg-8 d-flex flex-column align-items-center justify-content-center">
+        <img src="Imagenes/1a" alt="Ropa de playa" class="img-fluid" style="max-height: 400px;">
+        <p class="text-muted mt-2">ROPA DE PLAYA</p>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<!-- NOVEDADES DE OTRA PARTE -->
+
+<div class="collapse full-screen bg-white position-fixed top-0 start-0 w-52 h-100 overflow-auto" id="seccionNovedades">
+  <div class="container py-5">
+     <!-- Navar inicial -->
+   
+
+     <nav class="navbar py-2" style="background-color: #e9ecef;">
+      <div class="w-100 px-3 d-flex justify-content-between align-items-center">
+        <span class="m-0 small">COMPRA UNA TARJETA DE REGALO DE $1000 Y OBTÉN 20%</span>
+        <a href="#" class="text-dark text-decoration-underline small">COMPRA AHORA</a>
+      </div>
+    </nav>
+
+<!--  Navar de menu -->
+<nav class="navbar navbar-light bg-white sticky-top shadow-sm">
+  <div class="container d-flex justify-content-between align-items-center">
+    <a class="navbar-brand" href="#">
+      <img src="Imagenes/logo" alt="H&M" height="30" />
+    </a>
+    <button class="btn me-2 text-md-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#megaMenuHYM" aria-controls="megaMenuHYM">
+      <i class="bi bi-list fs-2"></i>
+    </button>
+ 
+
+   
+
+    <div class="d-flex align-items-center gap-3">
+      <a href="#" class="nav-link"><i class="bi bi-search"></i></a>
+      <a href="#" class="nav-link"><i class="bi bi-person"></i></a>
+      <a href="#" class="nav-link"><i class="bi bi-heart"></i></a>
+      <div class="dropdown position-relative">
+        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-bag"></i>
+          <span class="cart-badge"></span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end cart-dropdown">
+
         
-        EL 24 DE ABRIL <br>
-        ALAS 10:00 AM  </p>
-  
-    </section>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <h2 class="fw-bold text-start mb-4">NOVEDADES</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+      <button class="btn btn-outline-dark">VER TODO</button>
+      <button class="btn btn-outline-dark">ROPA</button>
+      <button class="btn btn-outline-dark">JEANS</button>
+      <button class="btn btn-outline-dark">ROPA DEPORTIVA</button>
+      <button class="btn btn-outline-dark">VESTIDOS</button>
+      <button class="btn btn-outline-dark">SHORTS</button>
+      <button class="btn btn-outline-dark">TRAJES DE BAÑO</button>
+    </div>
+    <br>
+    <p>CLASIFICAR POR  <img class="mas" src="/Imagenes/mas.png" alt="">
+    </p>           
+    <div class="row g-4">
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/mujervestido" class="img-fluid img-normal  w-80 h-80 " alt="1">
+        <img src="Imagenes/1a" class="img-fluid img-hover w-80 h-80 " alt="hover 1">
+        <p>VESTIDO BANDEAU ABOMBADO</p>
+        <span class="precio"> $649.00</span>
+      </div>
+      
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/mujerlentes" class="img-fluid img-normal w-80 h-80 " alt="2">
+        <img src="Imagenes/1b" class="img-fluid img-hover  w-80 h-80 " alt="hover 2">
+        <p>LENTES DE SOL</p>
+        <span class="precio"> $299.00</span>
+      </div>
+      
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/labial" class="img-fluid img-normal w-80 h-80 " alt="3">
+        <img src="Imagenes/1f" class="img-fluid img-hover w-80 h-80 " alt="hover 3">
+        <p>SATIN ICON LABIAL</p>
+        <span class="precio"> $299.00</span>
+      </div>
+      
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/mujervestido" class="img-fluid img-normal w-80 h-80 " alt="4">
+        <img src="Imagenes/1a" class="img-fluid img-hover w-80 h-80" alt="hover 4">
+        <p>VESTIDO MINI CON BORDES</p>
+        <span class="precio"> $599.00</span>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/Venta2" class="img-fluid img-normal w-80 h-80" alt="1">
+        <img src="Imagenes/2b" class="img-fluid img-hover w-80 h-80" alt="hover 1">
+        <p>VESTIDO BANDEAU ABOMBADO</p>
+        <span class="precio"> $649.00</span>
+      </div>
+      
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/mujervestido" class="img-fluid img-normal w-90 h-90" alt="2">
+        <img src="Imagenes/2a" class="img-fluid img-hover w-80 h-80" alt="hover 2">
+        <p>VESTIDOS </p>
+        <span class="precio"> $299.00</span>
+      </div>
+      
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/labial" class="img-fluid img-normal w-80 h-80" alt="3">
+        <img src="Imagenes/1f" class="img-fluid img-hover w-80 h-80" alt="hover 3">
+        <p>SATIN ICON LABIAL</p>
+        <span class="precio"> $299.00</span>
+      </div>
+      
+      <div class="col-6 col-md-3 imagen-hover">
+        <img src="Imagenes/mujervestido" class="img-fluid img-normal w-80 h-80" alt="4">
+        <img src="Imagenes/1a" class="img-fluid img-hover w-80 h-80" alt="hover 4">
+        <p>VESTIDO MINI CON BORDES</p>
+        <span class="precio"> $599.00</span>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <a class="btn btn-dark" data-bs-toggle="collapse" href="#seccionNovedades" role="button">CARGAR LA SIGUIENTE PAGINA</a>
+    </div>
+    <br>
+    <br>
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Anterior">
+            <span aria-hidden="true">&lsaquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+        <li class="page-item"><a class="page-link" href="#">20</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Siguiente">
+            <span aria-hidden="true">&rsaquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <p>HM.com/Mujer/ <span class="precio">Novedades Ver Todo</span> </p>
+    <footer class="bg-light text-dark pt-5 pb-3 w-100">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Colecciones -->
+          <div class="col-12 col-md-3 mb-4">
+            <h6 class="fw-bold">Colecciones</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark text-decoration-none">MUJER</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">HOMBRE</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">NIÑOS</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">HOME</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">BEAUTY</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">TARJETAS DE REGALO</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">MAGAZINE</a></li>
+            </ul>
+          </div>
     
+          <!-- Informacion Corporativa -->
+          <div class="col-12 col-md-3 mb-4">
+            <h6 class="fw-bold">Información Corporativa</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark text-decoration-none">TRABAJAR EN H&M</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">ACERCA DEL GRUPO H&M</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">SOSTENIBILIDAD</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">PRENSA</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">INVERSORES</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">POLÍTICA EMPRESARIAL</a></li>
+            </ul>
+          </div>
+    
+          <!-- Ayuda -->
+          <div class="col-12 col-md-3 mb-4">
+            <h6 class="fw-bold">Ayuda</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark text-decoration-none">ATENCIÓN AL CLIENTE</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">MI CUENTA</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">TIENDAS</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">TÉRMINOS Y CONDICIONES</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">CONTACTO</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">COMPRAS SEGURAS</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">AVISO DE COOKIES</a></li>
+              <li><a href="#" class="text-dark text-decoration-none">COOKIE SETTINGS</a></li>
+            </ul>
+          </div>
+    
+          <!-- Miembro -->
+          <div class="col-12 col-md-3 mb-4">
+            <h6 class="fw-bold">Conviértete en miembro</h6>
+            <p>¡Únete ahora y recibe un 10% de descuento en tu próxima compra!</p>
+            <a href="#" class="text-dark text-decoration-underline">CONOCE MÁS</a>
+          </div>
+        </div>
+    
+        <!-- Logo -->
+  <div class="text-start mt-4">
+    <img src="Imagenes/logoNegro.png" alt="H&M" height="60" />
+  </div>
+    
+        <!-- Region y redes sociales -->
+        <div class="region-social mt-4">
+          <div class="text-center text-md-start">
+            <span>México (S)</span>
+            <a href="#" class="text-decoration-underline text-dark ms-2">CAMBIAR DE REGIÓN</a>
+          </div>
+    
+          <div class="social-icons mt-3 mt-md-0 text-center">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+            <a href="#"><i class="bi bi-spotify"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-pinterest"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="row mt-3">
+          <div class="col-12 text-start mt-4">
+            <small class="text-dark">
+              <br> El contenido de este sitio está protegido por copyright y es propiedad de H&M, Hennes & Mauritz AB.
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+<!--  Fin de novedaees -->
+ <!-- Video de inicio -->
+ <section class="video-principal">
+  <video class="video-estilo" autoplay loop muted playsinline>
+    <source src="Imagenes/video.mp4" type="video/mp4">
+    Tu navegador no soporta el video.
+  </video>
+
+  <div class="texto-superpuesto">
+    <p>DISPONIBLE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="COMPRA">VER MÁS</span><br>
+    EL 24 DE ABRIL<br>
+    A LAS 10:00 AM</p>
+  </div>
+</section>
+
+  
    
 <!--  Imagenes que siguendel video -->
     <div class="container-fluid p-0">
@@ -132,7 +459,9 @@
         <div class=" col-6">
           <img src="Imagenes/Venta1.png" class="imgane1 w-100 h-100 " alt="Imagen izquierda">
           <p>RIVERA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="COMPRA">COMPRA AHORA</span><br> MODO
+            <button class="btn btn-link text-dark " data-bs-toggle="collapse" data-bs-target="#seccionNovedades" aria-expanded="false" aria-controls="seccionNovedades">
+              COMPRA AHORA
+            </button><br> MODO
           </p>
         </div>
         
@@ -192,111 +521,125 @@
           </div>
           </div>
          </div>
+         <!-- Imagenes despues del las multiples imagenes -->
     <div class="container-fluid p-0">
       <div class="row g-0">
       <div class="col-6">
-      <img src="Imagenes/3" class="imgane1" alt="Imagen izquierda">
-      <p class="subrayado">VESTIDOS <br> EXPLORAR</p>
+      <img src="Imagenes/b1" class="imgane1" alt="Imagen izquierda">
+      <p class="subrayado">DIA DE LA MADRE <br><span class="p1">EXPLORE</span> </p>
       </div>
        <div class="col-6">
-        <img src="Imagenes/4" class="imgane1" alt="Imagen izquierda">
-        <p class="subrayado">LINO <br>EXPLORAR</p>
+        <img src="Imagenes/b2" class="imgane1" alt="Imagen izquierda">
+        <p class="subrayado">PARA LA OCACION<br><span class="p1">EXPLORE</span></p>
 
      </div>
      </div>
       </div>
       <br><br>
+
       <div class="container-fluid p-0">
-        <div class="row g-0">
-        <div class="col-6">
-        <img src="Imagenes/5" class="imgane1" alt="Imagen izquierda">
-        <p class="subrayado">SHORTS <br> EXPLORAR</p>
+      <div class="row g-0">
+        <div class=" col-6">
+          <img src="Imagenes/b3" class="imgane1 w-100 h-100 " alt="Imagen izquierda">
+            <p class="subrayado">LINO<br><span class="p1">EXPLORE</span></p>
+
         </div>
-         <div class="col-6">
-          <img src="Imagenes/6" class="imgane1" alt="Imagen izquierda">
-          <p class="subrayado">TOPS <br>EXPLORAR</p>
+        
+        <div class=" col-6">
+          <img src="Imagenes/b4" class="imgane1 w-100 h-100 " alt="Imagen principal">
+          
+            <p class="subrayado">TOPS<br><span class="p1">EXPLORE</span></p>
         </div>
       </div>
-       </div>
-       <br>
+    </div>
+
+  <br> <br> <br> <br><br>
         
-       <footer class="bg-light text-dark pt-5 pb-3 w-100">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-6 col-md-2 mb-4">
-              <h6 class="fw-bold">Colecciones</h6>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-dark text-decoration-none">MUJER</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">HOMBRE</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">NIÑOS</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">HOME</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">BEAUTY</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">TARJETAS DE REGALO</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">MAGAZINE</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-6 col-md-3 mb-4">
-              <h6 class="fw-bold">Información Corporativa</h6>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-dark text-decoration-none">TRABAJAR EN H&M</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">ACERCA DEL GRUPO H&M</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">SOSTENIBILIDAD</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">PRENSA</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">INVERSORES</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">POLÍTICA EMPRESARIAL</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-6 col-md-3 mb-4">
-              <h6 class="fw-bold">Ayuda</h6>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-dark text-decoration-none">ATENCIÓN AL CLIENTE</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">MI CUENTA</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">TIENDAS</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">TÉRMINOS Y CONDICIONES</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">CONTACTO</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">COMPRAS SEGURAS</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">AVISO DE COOKIES</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">COOKIE SETTINGS</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-12 col-md-4 mb-4">
-              <h6 class="fw-bold">Conviértete en miembro</h6>
-              <p>¡Únete ahora y recibe un 10% de descuento en tu próxima compra!</p>
-              <a href="#" class="text-dark text-decoration-underline">CONOCE MÁS</a>
-            </div>
-          </div>
-          <img src="Imagenes/logoNegro.png" alt="H&M" height="60" />
-<br> <br><br>
-          <div class="row align-items justify-content-between  ">
-            <div class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2">
-              <span>México (S)</span>
-              <a href="#" class="text-decoration-underline text-dark">CAMBIAR DE REGIÓN</a>
-            </div>
-      
-            <div class="col-12 col-md-6 d-flex justify-content-end gap-3 mt-3 mt-md-0">
-             
-              <a href="#"><i class="bi bi-instagram fs-5 text-dark"></i></a>
-              <a href="#"><i class="bi bi-tiktok fs-5 text-dark"></i></a>
-              <a href="#"><i class="bi bi-spotify fs-5 text-dark"></i></a>
-              <a href="#"><i class="bi bi-youtube fs-5 text-dark"></i></a>
-              <a href="#"><i class="bi bi-pinterest fs-5 text-dark"></i></a>
-              <a href="#"><i class="bi bi-facebook fs-5 text-dark"></i></a>
-            </div>
-          </div>
-      
-          <div class="row mt-3">
-            <div class="col-12 ">
-              <small class="text-dark">
-                <br>
-                El contenido de este sitio está protegido por copyright y es propiedad de H&M, Hennes & Mauritz AB.
-              </small>
-            </div>
-          </div>
+  <footer class="bg-light text-dark pt-5 pb-3 w-100">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Colecciones -->
+        <div class="col-12 col-md-3 mb-4">
+          <h6 class="fw-bold">Colecciones</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">MUJER</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">HOMBRE</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">NIÑOS</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">HOME</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">BEAUTY</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">TARJETAS DE REGALO</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">MAGAZINE</a></li>
+          </ul>
         </div>
-      </footer>
+  
+        <!-- Informacion Corporativa -->
+        <div class="col-12 col-md-3 mb-4">
+          <h6 class="fw-bold">Información Corporativa</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">TRABAJAR EN H&M</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">ACERCA DEL GRUPO H&M</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">SOSTENIBILIDAD</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">PRENSA</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">INVERSORES</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">POLÍTICA EMPRESARIAL</a></li>
+          </ul>
+        </div>
+  
+        <!-- Ayuda -->
+        <div class="col-12 col-md-3 mb-4">
+          <h6 class="fw-bold">Ayuda</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark text-decoration-none">ATENCIÓN AL CLIENTE</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">MI CUENTA</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">TIENDAS</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">TÉRMINOS Y CONDICIONES</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">CONTACTO</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">COMPRAS SEGURAS</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">AVISO DE COOKIES</a></li>
+            <li><a href="#" class="text-dark text-decoration-none">COOKIE SETTINGS</a></li>
+          </ul>
+        </div>
+  
+        <!-- Miembro -->
+        <div class="col-12 col-md-3 mb-4">
+          <h6 class="fw-bold">Conviértete en miembro</h6>
+          <p>¡Únete ahora y recibe un 10% de descuento en tu próxima compra!</p>
+          <a href="#" class="text-dark text-decoration-underline">CONOCE MÁS</a>
+        </div>
+      </div>
+  
+      <!-- Logo -->
+<div class="text-start mt-4">
+  <img src="Imagenes/logoNegro.png" alt="H&M" height="60" />
+</div>
+  
+      <!-- Region y redes sociales -->
+      <div class="region-social mt-4">
+        <div class="text-center text-md-start">
+          <span>México (S)</span>
+          <a href="#" class="text-decoration-underline text-dark ms-2">CAMBIAR DE REGIÓN</a>
+        </div>
+  
+        <div class="social-icons mt-3 mt-md-0 text-center">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-tiktok"></i></a>
+          <a href="#"><i class="bi bi-spotify"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-pinterest"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="row mt-3">
+        <div class="col-12 text-start mt-4">
+          <small class="text-dark">
+            <br> El contenido de este sitio está protegido por copyright y es propiedad de H&M, Hennes & Mauritz AB.
+          </small>
+        </div>
+      </div>
+    </div>
+  </footer>
     </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
